@@ -1,11 +1,19 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #input branch yang akan di push
 read -p "branch name : " branch
 
 
 git config --local user.email "" #isi dengan email 
 git config --local user.name "" #isi dengan username
+=======
+read -p "branch name : " branch
+
+
+git config --local user.email "yusuf.luai01@gmail.com"
+git config --local user.name "Yusuf Luai"
+>>>>>>> 60ee229... menambah automisasi push git
 
 echo "[+] Enter your commit message:"
 read message
